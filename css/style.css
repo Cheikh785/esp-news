@@ -1,8 +1,12 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
 body{
     padding: 0;
     margin: 0;
+    min-height: 100vh;
     background-color: aliceblue;
-    /* background-color: red; */
+    background-image: linear-gradient(to bottom right, #fa9d08, #b3a38a50, #31ee3a);
+    background-repeat: no-repeat;
 }
 .welcome {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
@@ -18,13 +22,16 @@ body{
     text-align: center;
     padding: 0px 14px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 25px;
 }
 .navbar ul li {
     display: inline-block;
     padding: 1% 1.4%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
     border-top : 4px solid #555;
     border-bottom: 4px solid #555;
+    margin-left: 2%;
 }
 .navbar ul li:hover {
     /* border-top : 5px solid green; */
@@ -35,23 +42,43 @@ body{
     color: white;
 }
 .active {
-    border-bottom: 3px solid #473;
+    background-color: rgb(255, 166, 0) !important;
+    border-radius: 10px;
+}
+.activeAccueil {
+    border-top : 4px solid rgb(240, 13, 142) !important;
     cursor: pointer;
 }
 .accueil:hover {
-    border-top : 4px solid #dcd;
+    border-top : 4px solid rgb(240, 13, 142);
+    cursor: pointer;
+}
+.activeSport {
+    border-top : 4px solid blue !important;
     cursor: pointer;
 }
 .sport:hover {
     border-top : 4px solid blue;
     cursor: pointer;
 }
+.activeSante {
+    border-top : 4px solid #41aa04 !important;
+    cursor: pointer;
+}
 .sante:hover {
     border-top : 4px solid #41aa04;
     cursor: pointer;
 }
+.activeEducation {
+    border-top : 4px solid yellow !important;
+    cursor: pointer;
+}
 .education:hover {
     border-top : 4px solid yellow;
+    cursor: pointer;
+}
+.activePolitique {
+    border-top : 4px solid red !important;
     cursor: pointer;
 }
 .politique:hover {
