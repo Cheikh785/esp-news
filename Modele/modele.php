@@ -4,7 +4,7 @@
     function getAllCategories() {
         $connexion = connect_db();
         $tabCategory = Array();
-        $sql = "SELECT * FROM category";
+        $sql = "SELECT * FROM Categorie";
         foreach($connexion->query($sql) as $row) {
             array_push($tabCategory, $row);
         }
@@ -15,7 +15,7 @@
     function getAllArticleByCategory($category = 0) {
         $connexion = connect_db();
         $tabArticle = Array();
-        $sql = "SELECT * FROM article where category =".$category;
+        $sql = "SELECT * FROM Article where categorie =".$category;
         foreach($connexion->query($sql) as $row) {
             array_push($tabArticle, $row);
         }
@@ -26,7 +26,7 @@
     function getAllArticles() {
         $connexion = connect_db();
         $tabArticles = Array();
-        $sql = "SELECT * FROM article";
+        $sql = "SELECT * FROM Article";
         foreach($connexion->query($sql) as $row) {
             array_push($tabArticles, $row);
         }
@@ -37,7 +37,7 @@
     function getArticleById($id) {
         $connexion = connect_db();
         $article = Array();
-        $sql = "SELECT * FROM article where id = ".$id;
+        $sql = "SELECT * FROM Article where id = ".$id;
         return $connexion->query($sql)->fetchAll();
         close();
     }

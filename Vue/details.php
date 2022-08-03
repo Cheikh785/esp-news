@@ -48,7 +48,7 @@
     ?>
         <div class="container">
             <div class="article-details">
-                <p class="titre-details"><?= $art['intitule'];  ?></p>
+                <p class="titre-details"><?= $art['titre'];  ?></p>
                 <p class="contenu-details"><?= $art['contenu'];   ?></p>
                 <button class="retour"><a href="index.php">Retour</a></button>
             </div>
