@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/esp-news/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>New</title>
+    <title>esp news</title>
 </head>
 <body>
     <?php 
@@ -35,12 +35,17 @@
         }
     ?>
 </body>
+    <script>
+        var ulContainer = document.getElementById("liste");
 
+        var li = ulContainer.getElementsByTagName("li");
 
-<script>
-    $(".navbar li").on("click", function() {
-        $(".navbar li").removeClass("active");
-        $(this).addClass("active");
-    });
-</script>
+        for (var i = 0; i < li.length; i++) {
+            li[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
 </html>

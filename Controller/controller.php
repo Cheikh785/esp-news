@@ -6,7 +6,7 @@
         $tabCategories = getAllCategories();
         $category = Array(0 => 'accueil', 1 => 'sport', 2 => 'education', 3 => 'sante', 4 => 'politique');
         if ($categorie == "accueil")
-        $listeArticles = getAllArticles();
+            $listeArticles = getAllArticles();
         else {
             foreach($category as $cat => $values) {
                 if ($categorie == $values) {
