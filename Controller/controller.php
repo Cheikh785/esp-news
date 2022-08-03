@@ -16,7 +16,7 @@
             }    
         }
         $estVide = empty($listeArticles);
-        echo $estVide;
+        // echo $estVide;
         require_once "Vue/vue.php"; 
     } 
 
