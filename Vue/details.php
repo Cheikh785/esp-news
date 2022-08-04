@@ -17,7 +17,7 @@
                 <p class="contenu-details"><?= $art['contenu'];   ?></p>
             </div>
         </div>
-        <button class="retour"><a href="/esp-news/index.php">Retour</a></button>
+        <button class="retour"><a href="/index.php">Retour</a></button>
     <?php } ?>
 </body>
 </html>
