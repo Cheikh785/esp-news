@@ -22,7 +22,7 @@
                 <div class="article">
                     <p class="titre"><?php echo $article['titre']; ?></p>
                     <p class="contenu"><?= substr($article['contenu'], 0, 210). "...";  ?></p>
-                    <a href="<?= "/esp-news/index.php?id=".$article['id']?>" class="lire-plus">Lire plus...</a>
+                    <a href="<?= "/index.php?id=".$article['id']?>" class="lire-plus">Lire plus...</a>
                 </div>
             </div> <?php } ?>
             <div class="container">
