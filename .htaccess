@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 RewriteEngine on 
 RewriteRule ^index/([a-zA-Z0-9-_]+)/([0-9]+)$ index.php?action=$1|id=$2 [L]
+=======
+# RewriteEngine on 
+# RewriteRule ^index/([a-zA-Z0-9-_]+)/([0-9]+)$ index.php?action=$1|id=$2 [L]
+>>>>>>> front-end
