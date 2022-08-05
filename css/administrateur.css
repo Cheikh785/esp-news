@@ -3,19 +3,19 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #352e3166;
+    background-color: #3a701a82;
 }
 .categorie {
-    background-image: linear-gradient(to bottom right, #2a37aa, #352e3136);
+    background-image: linear-gradient(to bottom right, #d9580e, #3d393bbe);
     /* width: 17%; */
     max-height: 80vh;
     margin-left: 4%;
-    margin-top: 0%;
+    margin-top: 3%;
     /* position: fixed; */
     border-radius: 10px;
 }
 .categorie ul {
-    padding: 20% 0% 10% 30%;
+    padding: 20% 0% 10% 20%;
 }
 .categorie ul li {
     font-size: 200%;
@@ -55,12 +55,13 @@ body {
     margin-top: 5%;
 }
 .container-article {
-    padding-top: 1%;
-    padding-left: 6%;
+    padding-top: 4%;
+    padding-left: 7%;
+    /* background-color: red; */
 }
 .article {
-    background-color: #d3d3d3a3;
-    width: 85%;
+    background-color: #ffffff74;
+    width: 100%;
     margin-bottom: 2%;
     border-radius: 15px;
     border-bottom-right-radius: 0%;
@@ -94,4 +95,10 @@ body {
     justify-content: right;
     margin-top: -3%;
     padding-bottom: 1%;
+}
+.adding {
+    /* background-color: red; */
+    padding-top: 5%;
+    width: 110%;
+    /* margin-left: -3%; */
 }
