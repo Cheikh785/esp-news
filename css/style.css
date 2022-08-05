@@ -13,11 +13,8 @@ body{
     text-align: center;
     font-size: 35px;
 }
-<<<<<<< HEAD
-=======
 /* ------------------------------------Start navbar------------------------------------------------- */
 
->>>>>>> front-end
 .navbar {
     background-color: #555;
 }
@@ -90,12 +87,9 @@ body{
     border-top : 4px solid red;
     cursor: pointer;
 }
-<<<<<<< HEAD
-=======
 /* ------------------------------------End navbar------------------------------------------------- */
 
 /* ------------------------------------Start welcome page------------------------------------------------- */
->>>>>>> front-end
 .container {
     display: flex;
     justify-content: center;
@@ -173,13 +167,9 @@ body{
     display: flex;
     margin-left: 13%;
 }
-<<<<<<< HEAD
-/* ------------------------------------Page details------------------------------------------------- */
-=======
 /* ------------------------------------End welcome page------------------------------------------------- */
 
 /* ------------------------------------Start page details------------------------------------------------- */
->>>>>>> front-end
 .article-details {
     border: 3px dashed yellow;
     padding: 1% 5% 2% 4%;
@@ -222,9 +212,5 @@ body{
 .retour:hover {
     cursor: pointer;
     background-color: #343a40;
-<<<<<<< HEAD
-}
-=======
 }
 /* ------------------------------------End page details------------------------------------------------- */
->>>>>>> front-end
