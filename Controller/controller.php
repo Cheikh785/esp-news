@@ -1,7 +1,8 @@
 <?php
     include_once("Modele/modele.php");
 
-    
+    $listeAllArticles = getAllArticles();
+
     function ChargerArticle($categorie) {
         $tabCategories = getAllCategories();
         $category = Array(0 => 'accueil', 1 => 'sport', 2 => 'education', 3 => 'sante', 4 => 'politique');

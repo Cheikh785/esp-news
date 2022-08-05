@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/auth-editeur.css">
-    <title>Page d'authentification de l'éditeur</title>
+    <link rel="stylesheet" href="../css/auth-admin.css">
+    <title>Page d'authentification de l'administrateur</title>
 </head>
 <body>
     <div class="form">
         <h4>Connexion</h4>
-        <form method="post">
+        <form method="post" action="../Vue/administrateur.php">
             <div class="input">
                 <div class="inputBox">
                     <label for="username">Nom d'utilisateur</label>
