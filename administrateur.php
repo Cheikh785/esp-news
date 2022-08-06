@@ -72,8 +72,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col ajouter-article">
-                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#">Liste des Utilisateurs</button>
+                    <div class="col liste-editeurs">
+                        <a class="btn btn-success" href="Vue/liste-editeurs.php">Liste des éditeurs</a>
                     </div>
                 </div>
             </div>
