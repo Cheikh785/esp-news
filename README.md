@@ -39,7 +39,8 @@ utilisateurs. Le cas échéant, l’application devra fournir un accès complet 
 - https://polytechs-news.herokuapp.com/auth/admin.php (page d'authentification de l'administrateur)
 - https://polytechs-news.herokuapp.com/auth/editeur.php (page d'authentification de l'éditeur)
 - https://polytechs-news.herokuapp.com/administrateur.php (page d'accueil de l'administrateur)
-- https://polytechs-news.herokuapp.com/Vue/liste-editeurs.php (page d'accueil de l'éditeur)
+- https://polytechs-news.herokuapp.com/editeur.php (page d'accueil de l'éditeur)
+- https://polytechs-news.herokuapp.com/Vue/liste-editeurs.php (Liste des éditeurs)
 
 
 
