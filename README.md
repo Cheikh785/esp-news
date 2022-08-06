@@ -35,9 +35,11 @@ En plus on devra créer une application Java (ou Python) permettant de gérer le
 utilisateurs. Le cas échéant, l’application devra fournir un accès complet aux fonctionnalités de gestion des utilisateurs et ce, en utilisant les services web adéquats.
 
 ## EndPoints 
-- https://polytechs-news.herokuapp.com/index.php
-- https://polytechs-news.herokuapp.com/auth/admin.html
-- https://polytechs-news.herokuapp.com/auth/editeur.html
+- https://polytechs-news.herokuapp.com/index.php (page d'accueil)
+- https://polytechs-news.herokuapp.com/auth/admin.php (page d'authentification de l'administrateur)
+- https://polytechs-news.herokuapp.com/auth/editeur.php (page d'authentification de l'éditeur)
+- https://polytechs-news.herokuapp.com/administrateur.php (page d'accueil de l'administrateur)
+- https://polytechs-news.herokuapp.com/Vue/liste-editeurs.php (page d'accueil de l'éditeur)
 
 
 
