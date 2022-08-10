@@ -45,11 +45,7 @@ utilisateurs. Le cas échéant, l’application devra fournir un accès complet 
 
 
 # Résultats 
-
-<p style="text-align:center;">Page d'accueil</p>
-
-# Example text {style=text-align:center}
-
+> Page d'accueil
 ![Accueil](captures/accueil1.png) 
 ![Accueil](captures/accueil2.png)
 ![Accueil](captures/details1.png) 
