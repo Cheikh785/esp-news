@@ -23,7 +23,7 @@
                 <div class="inputBox">
                     <button type="submit" name="" value="Se connecter">Se connecter</button>
                 </div>
-                <p class="incorrect">Erreur : identifiants incorrects !</p>
+                <!-- <p class="incorrect">Erreur : identifiants incorrects !</p> -->
             </div>
         </form>
     </div>

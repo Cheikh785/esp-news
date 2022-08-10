@@ -61,16 +61,16 @@ body {
     margin-top: 5%;
 }
 .modifier-categorie .btn {
-    /* width: 97%;
-    font-size: 96%; */
+    width: 97%;
+    font-size: 96%;
 }
 .ajouter-article {
     margin-top: 5%;
 }
-.ajouter-article .btn {
-    /* margin-top: 5%;
+.ajouter-article button {
+    margin-top: 5%;
     width: 97%;
-    font-size: 98%; */
+    font-size: 98%;
 }
 .container-article {
     padding-top: 1%;

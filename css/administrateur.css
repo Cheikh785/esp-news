@@ -51,11 +51,22 @@ body {
 .modifier-categorie {
     margin-top: 5%;
 }
+.modifier-categorie button {
+    width: 70%;
+    font-size: 90%;
+}
 .ajouter-article {
     margin-top: 5%;
 }
+.ajouter-article button {
+    width: 70%;
+}
 .liste-editeurs {
     margin-top: 7%;
+}
+.liste-editeurs a {
+    width: 70%;
+    color: black;
 }
 .container-article {
     padding-top: 4%;

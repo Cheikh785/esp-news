@@ -27,7 +27,7 @@
         foreach($connexion->query($sql) as $row) {
             array_push($tabArticle, $row);
         }
-        close();
+        // close();
         return $tabArticle;
     }
 
@@ -46,7 +46,7 @@
         $connexion = connect_db();
         $article = Array();
         $sql = "SELECT * FROM Article where id = ".$id;
-        close();
+        // close();
         return $connexion->query($sql)->fetchAll();
     }
 
