@@ -45,10 +45,24 @@ utilisateurs. Le cas échéant, l’application devra fournir un accès complet 
 
 
 # Résultats 
-![Accueil](captures/accueil1.png) 
-![Accueil](captures/accueil2.png) 
-![Accueil](captures/accueil3.png) 
-![Accueil](captures/accueil4.png) 
+![Accueil](captures/accueil.png) 
+![Accueil](captures/accueil1.png)
+![Accueil](captures/details1.png) 
+
+---
+
+![Accueil](captures/admin1.png) 
+![Accueil](captures/admin2.png) 
+![Accueil](captures/admin3.png) 
+![Accueil](captures/admin4.png) 
+![Accueil](captures/admin5.png) 
+![Accueil](captures/admin6.png) 
+![Accueil](captures/admin7.png) 
+
+----
+
+![Accueil](captures/editeur1.png) 
+![Accueil](captures/editeur2.png) 
 
 
 
