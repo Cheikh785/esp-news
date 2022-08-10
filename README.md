@@ -45,8 +45,8 @@ utilisateurs. Le cas échéant, l’application devra fournir un accès complet 
 
 
 # Résultats 
-![Accueil](captures/accueil.png) 
-![Accueil](captures/accueil1.png)
+![Accueil](captures/accueil1.png) 
+![Accueil](captures/accueil2.png)
 ![Accueil](captures/details1.png) 
 
 ---
