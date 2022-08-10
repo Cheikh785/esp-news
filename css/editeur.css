@@ -45,14 +45,32 @@ body {
     text-align: center;
     margin-top: 0%;
 }
+.dashbord {
+    /* background-color: red; */
+    padding-top: 4%;
+    margin-bottom: -5%;
+}
 .ajouter-categorie {
     margin-top: 5%;
+}
+.ajouter-categorie .btn {
+    /* font-size: 95%;
+    width: 97%; */
 }
 .modifier-categorie {
     margin-top: 5%;
 }
+.modifier-categorie .btn {
+    /* width: 97%;
+    font-size: 96%; */
+}
 .ajouter-article {
     margin-top: 5%;
+}
+.ajouter-article .btn {
+    /* margin-top: 5%;
+    width: 97%;
+    font-size: 98%; */
 }
 .container-article {
     padding-top: 1%;

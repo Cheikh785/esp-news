@@ -19,7 +19,7 @@
             <div class="col-8 title">
                 <h1>Bienvenu Mbam Xoux</h1>
             </div>
-            <div class="col">
+            <div class="col dashbord">
                 <div class="row">
                     <div class="col ajouter-categorie">
                         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addCategoryModal">Ajouter une catégorie</button>
@@ -83,7 +83,7 @@
                     <h3 class="modal-title" id="addArticleModalLabel">Ajout d'un article</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form action="#" method="post">
+                <form action="editeur.php" method="POST">
                     <div class="modal-body">
                         <div class="mb-3">
                             <label for="libelle" class="col-form-label">Libellé</label>
@@ -111,11 +111,11 @@
                     <h3 class="modal-title" id="addCategoryModalLabel">Ajout d'une categorie</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form action="#" method="post">
+                <form action="editeur.php" method="post">
                     <div class="modal-body">
                         <div class="mb-3">
                             <label for="libelle" class="col-form-label">Libellé</label>
-                            <input type="text" class="form-control" id="libelle" required>
+                            <input type="text" class="form-control" id="libelle" name="libelleCategorie" required>
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -194,5 +194,11 @@
             </div>
         </div>
     </div>
+
+    <?php
+        if (isset($_POST['libelleCategorie'])) {
+            addCategory($_POST['libelleCategorie']);
+        }
+    ?>
 </body>
 </html>
