@@ -10,7 +10,7 @@
 <body>
     <div class="form">
         <h4>Connexion</h4>
-        <form method="post" action="../Vue/administrateur.php">
+        <form method="post" action="../administrateur.php">
             <div class="input">
                 <div class="inputBox">
                     <label for="username">Nom d'utilisateur</label>
