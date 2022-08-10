@@ -45,12 +45,14 @@ utilisateurs. Le cas échéant, l’application devra fournir un accès complet 
 
 
 # Résultats 
+<center>Page d'accueil</center>
 ![Accueil](captures/accueil1.png) 
 ![Accueil](captures/accueil2.png)
 ![Accueil](captures/details1.png) 
 
 ---
 
+<center>Admimnistrateur</center>
 ![Accueil](captures/admin1.png) 
 ![Accueil](captures/admin2.png) 
 ![Accueil](captures/admin3.png) 
@@ -61,6 +63,7 @@ utilisateurs. Le cas échéant, l’application devra fournir un accès complet 
 
 ----
 
+<center>Editeur</center>
 ![Accueil](captures/editeur1.png) 
 ![Accueil](captures/editeur2.png) 
 
