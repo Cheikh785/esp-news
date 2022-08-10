@@ -19,7 +19,7 @@
             <div class="col-10">
                 <div class="row">
                     <div class="col-9 title">
-                        <h1>Bienvenu Mbam Xoux</h1>
+                        <h1>Bienvenu M. Diakhaté</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -51,7 +51,7 @@
                             </div> -->
                         </div> <?php 
                     } else {    ?> 
-                        <div class=" container alert"><p> Aucun article disponible !</p></div>  <?php 
+                        <div class="container alert"><p> Aucun article disponible !</p></div>  <?php 
                     }   ?>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                 </div>
                 <div class="row">
                     <div class="col liste-editeurs">
-                        <a class="btn btn-success" href="Vue/liste-editeurs.php">Liste des éditeurs</a>
+                        <a class="btn btn-success" href="liste-editeurs.php">Liste des éditeurs</a>
                     </div>
                 </div>
             </div>
@@ -94,6 +94,15 @@
                         <div class="mb-3">
                             <label for="libelle" class="col-form-label">Libellé</label>
                             <input type="text" class="form-control" id="libelle" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="categorie" class="col-form-label">Categorie</label>
+                            <select name="categorie" id="categorie" class="form-select" aria-label="Default select example">
+                                <option value="sport">Sport</option>
+                                <option value="sante">Santé</option>
+                                <option value="education">Education</option>
+                                <option value="politique">Politique</option>
+                            </select>
                         </div>
                         <div class="mb-3">
                             <label for="contenu" class="col-form-label">Contenu</label>

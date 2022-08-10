@@ -10,7 +10,7 @@
     <title>Actualités</title>
 </head>
 <body>
-    <h1 class="welcome">Bienvenu dans mon application d'actualité</h1>
+    <h1 class="welcome">Bienvenu dans l'application d'actualité des Polytechniciens</h1>
     <?php 
         include 'navbar.php';
     ?>
@@ -25,14 +25,20 @@
                     <a href="<?= "/index.php?id=".$article['id']?>" class="lire-plus">Lire plus...</a>
                 </div>
             </div> <?php } ?>
-            <div class="container">
-        <button class="precedent"> &lt;&lt; Précédent</button>
-        <button class="suivant">Suivant &gt;&gt;</button>
-    </div>
-            
+            <div class="container suivant-precedent">
+                <a href="#" class="precedent">Precédent</a>
+                <a href="#" class="un">1</a>
+                <a href="#">2</a>
+                <a>.</a>
+                <a>.</a>
+                <a>.</a>
+                <a href="#">7</a>
+                <a href="#">8</a>
+                <a href="#" class="suivant">Suivant</a>
+            </div>
     <?php 
      } else {
-        ?> <div class=" container alert"><p> Aucun article disponible !</p></div>
+        ?> <div class="container alert"><p> Aucun article disponible !</p></div>
         <?php }
      ?>
 </body>

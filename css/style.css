@@ -4,7 +4,7 @@ body{
     padding: 0;
     margin: 0;
     min-height: 100vh;
-    background-color: aliceblue;
+    background-color: rgba(35, 40, 45, 0.649);
     /* background-image: linear-gradient(to bottom right, #fa9d08, #b3a38a50, #31ee3a); */
     background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@ body{
 /* ------------------------------------Start navbar------------------------------------------------- */
 
 .navbar {
-    background-color: #555;
+    background-color: #222222ca;
 }
 .navbar ul {
     overflow: hidden;
@@ -31,21 +31,27 @@ body{
     padding: 1% 1.4%;
     padding-top: 0.7%;
     padding-bottom: 0.7%;
-    border-top : 4px solid #555;
-    border-bottom: 4px solid #555;
+    border-top : 4px solid #22222200;
     margin-left: 2%;
 }
 .navbar ul li:hover {
     /* border-top : 5px solid green; */
     cursor: pointer;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    cursor: pointer;
+    /* border-right: 3px solid #555; */
+    background-color: #343a40;
+    box-shadow: -5px -5px 10px rgba(30, 30, 30, 0.754),
+                10px 10px 20px rgba(18, 18, 18, 0.999);
 }
 .navbar ul li a {
     text-decoration: none;
     color: white;
 }
 .active {
-    background-color: rgb(255, 166, 0) !important;
-    border-radius: 10px;
+    /* background-color: rgb(255, 166, 0); */
+    /* border-radius: 10px; */
 }
 .activeAccueil {
     border-top : 4px solid rgb(240, 13, 142) !important;
@@ -96,8 +102,8 @@ body{
     margin-bottom: 1%;
 }
 .container > .article {
-    background-color: white;
-    width: 70%;
+    background-color: rgba(255, 255, 255, 0.809);
+    width: 50%;
     border-radius: 15px;
     border-bottom-right-radius: 0%;
     padding: 0.1%;
@@ -125,8 +131,8 @@ body{
     margin-top: -1.5%;
     font-size: 19px;
 }
-.precedent {
-    background-color: #007bff;
+/* .precedent {
+    background-color: #666666;
     border: 1px solid transparent;
     border-color: #007bff;
     color: #fff;
@@ -157,7 +163,7 @@ body{
     vertical-align: middle;
     position: relative;
     left: 20%;
-}
+} */
 .alert {
     background-color: #fff3cd;
     color: #664d03;
@@ -166,6 +172,31 @@ body{
     width: 74%;
     display: flex;
     margin-left: 13%;
+}
+.suivant-precedent {
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 29%;
+    /* float: right; */
+    /* margin-right: 30%; */
+}
+.suivant-precedent a {
+    font-style: normal;
+    margin-left: 2%;
+    text-decoration: none;
+    color: blue;
+}
+.suivant-precedent .precedent {
+    color: #343a40;
+    text-decoration: underline;
+}
+.suivant-precedent .un {
+    text-decoration: underline;
+    color: #551A8B;
+}
+.suivant-precedent .suivant {
+    text-decoration: underline;
+    color: #551A8B;
 }
 /* ------------------------------------End welcome page------------------------------------------------- */
 
@@ -207,10 +238,10 @@ body{
 }
 .retour a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .retour:hover {
     cursor: pointer;
-    background-color: #343a40;
+    background-color: #343a407e;
 }
 /* ------------------------------------End page details------------------------------------------------- */

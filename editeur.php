@@ -17,7 +17,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-8 title">
-                <h1>Bienvenu Mbam Xoux</h1>
+                <h1>Bienvenu M. AW</h1>
             </div>
             <div class="col dashbord">
                 <div class="row">
